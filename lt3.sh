@@ -1,9 +1,8 @@
 #!/bin/bash
 
-#inkrementDay="$paramday"
-#****************************************)))))
-#inkrementDay=$DAYS
-inkrementDay=-2
+
+inkrementDay=$DAYS
+#inkrementDay=-2
 date="$(date -d "$inkrementDay day" +"%Y%m%d")"
 
 #date="$(date -d "-2 day" +"%Y%m%d")"
