@@ -8,6 +8,7 @@ date2="$(date +%Y-%m-%d-%H-%M-%S)"
 
 
 
+
 download_accesslog() {
 cd /home/qateam/melloadtest
 mkdir -p "$date"
